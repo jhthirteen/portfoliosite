@@ -8,3 +8,10 @@ nav{
     justify-content: space-between;
     font-family: Copperplate, Papyrus, fantasy;
 }
+a{
+    color: black;
+}
+a:hover{
+    font-size: 20px;
+    color: #7CB9E8;
+}
