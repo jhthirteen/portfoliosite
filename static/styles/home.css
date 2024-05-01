@@ -1,3 +1,16 @@
+body{
+    background-color: white;
+}
+
+img{
+    width: 249px;
+    height: 236px;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
 nav{
     display: flex;
     justify-content: center;
@@ -8,10 +21,12 @@ nav{
     justify-content: space-between;
     font-family: Copperplate, Papyrus, fantasy;
 }
+
 a{
     color: black;
 }
+
 a:hover{
     font-size: 20px;
-    color: #7CB9E8;
+    color: #2e94b9;
 }
