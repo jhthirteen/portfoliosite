@@ -2,13 +2,14 @@ body{
     background-color: white;
 }
 
-img{
-    width: 249px;
-    height: 236px;
+#pfp{
+    width: 187px;
+    height: 177px;
     border-radius: 50%;
+    border: 3px solid black;
     position: fixed;
-    right: 20px;
-    top: 20px;
+    left: 25px;
+    top: 125px;
 }
 
 nav{
@@ -29,4 +30,19 @@ a{
 a:hover{
     font-size: 20px;
     color: #2e94b9;
+}
+
+h1{
+    position: fixed;
+    left: 20px;
+    top: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    position: fixed;
+    width: 250px;
+    word-wrap: break-word;
+    left: 20px;
+    top: 350px;
 }
