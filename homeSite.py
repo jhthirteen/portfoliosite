@@ -8,11 +8,11 @@ def home():
 
 @app.route("/about")
 def about():
-    return "about me page in progress"
+    return render_template('about.html')
 
 @app.route("/projects")
 def projects():
-    return "projects page in progress"
+    return render_template('projects.html')
 
 @app.route("/connect")
 def connect():
